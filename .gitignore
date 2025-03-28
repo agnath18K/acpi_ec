@@ -1,0 +1,36 @@
+# These rules are taken from the Linux original source code
+.*
+!.github
+*.ko
+*.mod
+*.mod.c
+*.o
+*.o.*
+*.tar
+*.xz
+Module.symvers
+modules.order
+!.gitignore
+
+# Kernel module build artifacts
+*.ko
+*.mod
+*.mod.c
+*.o
+*.o.*
+*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+
+# Build directories
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Git
+.git/
